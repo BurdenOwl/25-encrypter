@@ -1,0 +1,17 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+#inputValue {
+    width: 800px; 
+    height: 200px;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: (38, 38, 38);
+        font-family: Roboto;
+        color: white;
+    }
+}
